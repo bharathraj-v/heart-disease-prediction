@@ -86,6 +86,6 @@ with gr.Blocks() as demo:
     btn.click(fn=predict, inputs=[age, sex ,cp ,trestbps ,chol ,fbs ,restecg ,thalach ,exang ,oldpeak ,slope ,ca ,thal],
                outputs=out)
 
-demo.launch()
+demo.launch(share=True)
     
 
